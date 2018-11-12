@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background: #333; */
+}
+#midil{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:fit-content;
+}
+a{
+    margin: 1px;
+    text-decoration: none;
+    font-family: monospace;
+    /* height: 50px; */
+    padding: 1rem 2rem;
+    background: #233D4D;
+    color: #FCCA46;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: none;
+}
+#canvas{
+    /* width: 100vw;
+    height: 100vh; */
+    top:0;
+    left:0;
+    position: absolute;
+    background: #333;
+}
